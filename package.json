@@ -1,0 +1,22 @@
+{
+  "name": "monitor-txs",
+  "description": "Transaction monitor / BTC, Satoshis, USD, per [x] second/s.",
+  "author": "BitPay",
+  "version": "0.1.0",
+  "keywords": [
+    "wallet",
+    "copay",
+    "multisignature",
+    "bitcoin",
+    "bitcore"
+  ],
+  "repository": {
+    "url": "git://github.com/javierbitpay/monitor-txs.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "bitcore": "0.13.0",
+    "bitcore-p2p": "0.15.1",
+    "moving-average": "0.0.5"
+  }
+}
